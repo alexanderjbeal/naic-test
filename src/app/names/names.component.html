@@ -1,0 +1,17 @@
+<h2>Names Detail</h2>
+
+<form id="filter">
+    <label>Filter names</label>
+    <input type="text" [(ngModel)]="term" name="term" />
+</form>
+
+<h3>{{errorMsg}}</h3>
+
+<ul *ngFor="let name of names | filter:term">
+    <li style="list-style: none">
+        Name: {{name.name}} <br>
+        Email: {{name.email}} <br>
+        Number of Friends: {{name.friends.length}} <br>
+        <a (click)="deleteName(name.id)" class="text-danger">Delete</a>
+    </li>
+</ul>
