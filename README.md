@@ -8,13 +8,13 @@
 * Create a rest api service to update a User's profile
 * OWASP Top Ten standards need to be followed needs to be followed
 * Frontend should display to the User either successfully saved or a general error occurred
-* User Profile page will have a reset and submit button - Did not have time to research or try to build out this feature with Angular
-* User Profile page will have a header with a logout button - Aforementioned statement, but there is a function logout button
+* User Profile page will have a reset and submit button
+* User Profile page will have a header with a logout button
 
 
 ## User story requirements completed:
-* User tries to login and enters wrong password - error displayed - Displays combined error for username / password
-* User tries to login and enters wrong username - error displayed - Displays combined error for username / password
+* User tries to login and enters wrong password - error displayed
+* User tries to login and enters wrong username - error displayed
 * User tries to login with no username/password - error displayed
 * Email address needs to be valid and is required
 * First, Last names are required fields
